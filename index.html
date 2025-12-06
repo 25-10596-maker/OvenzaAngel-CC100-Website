@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Angel Ovenza | Personal Website</title>
+  <style>
+    /* ----------------------------- */
+/* General Page Style */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #C154C1; 
+  color: #000000;
+  line-height: 1.6;
+}
+
+/* ----------------------------- */
+/* Header */
+header {
+  background-color: #C154C1; 
+  color: #020202;
+  text-align: center;
+  padding: 20px;
+}
+
+header h1 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+nav {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  overflow: none;
+}
+
+nav {
+  margin: 0 15px;
+}
+
+nav a {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 14px 20px;
+  float: left;
+  text-align: center;
+}
+
+nav a:hover {
+  color: #080808; /* White */
+}
+
+/* ----------------------------- */
+/* Profile Section */
+.profile {
+  text-align: center;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.profile img {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  border: 4px solid #FFFFFF; /* White */
+  object-fit: cover;
+}
+
+.profile h2 {
+  color: #000000; /* Black */
+  margin: 15px 0;
+}
+
+.profile p {
+  width: 80%;
+  margin: auto;
+  font-size: 1.1em;
+}
+
+/* ----------------------------- */
+/* Sections */
+section {
+  width: 85%;
+  margin: 30px auto;
+  padding: 20px;
+  background: #FBA0E3; 
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+h2 {
+  color: #030303; /* White */
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+/* ----------------------------- */
+/* Education */
+.education-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.education-list li {
+  background: #FFFFFF;
+  color: #000000;
+  padding: 10px 15px;
+  margin: 8px 0;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+/* Skills & Hobbies */
+.skills-list, .hobbies-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.skills-list li, .hobbies-list li {
+  list-style: none;
+  background: #FFFFFF; /* White  */
+  color: #000000; /* Black */
+  padding: 10px 20px;
+  border-radius: 20px;
+  transition: transform 0.3s, background 0.3s;
+}
+
+.skills-list li:hover, .hobbies-list li:hover {
+  transform: scale(1.1);
+  background: #FBA0E3; /* Light Pink */
+}
+
+/* Contact Section */
+.contact-info {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.contact-info a {
+  color: #000000; /* Black */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.contact-info a:hover {
+  color: #FFFFFF; /* White hover */
+}
+
+/* Footer */
+footer {
+  background: #FFFFFF; /* shocking pink */
+  color: #FC0FC0; /* White text */
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
+}
+
+/* ----------------------------- */
+/* Responsive */
+@media (max-width: 600px) {
+  nav ul {
+    flex-direction: column;
+  }
+  .skills-list, .hobbies-list {
+    flex-direction: column;
+    align-items: center;
+  }
+  .profile p {
+    width: 90%;
+  }
+}
+Write to Angel Ovenza
+
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>Angel M. Ovenza</h1>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#skills">Skills</a>
+        <a href="#hobbies">Hobbies</a>
+        <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Profile Section -->
+  <section class="profile">
+    <img src="e92c3a5b-861d-4a1f-8849-8f9a7b514a8c.jpg" alt="Angel Ovenza Photo">
+    <h2>Hello! I’m Angel</h2>
+    <p>     
+      I am a motivated BSIT student who loves technology, web design, and programming. I enjoy learning new skills and creating projects that help me grow and improve.
+    </p>
+  </section>
+
+  <!-- About Me -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>  
+      I am a BSIT student who enjoys coding, web design, and working on projects with others.
+      I aim to become a professional web developer and focus on creating clean and user-friendly websites.
+      I’m always learning new technologies and improving my skills to grow in the IT field.
+    </p>
+  </section>
+
+  <!-- Education -->
+  <section id="education">
+    <h2>Educational Background</h2>
+    <ul class="education-list">
+      <li><strong>Elementary School:</strong> Lumbang na Matanda Elementary School, Graduated 2019</li>
+      <li><strong>High School:</strong> Lumbang na Matanda National High School, Graduated 2023</li>
+      <li><strong>Senior High School:</strong> Universal Scholastic Academe, Graduated 2025</li>
+      <li><strong>College:</strong> Batangas State University, BS Information Technology, 2025-Present</li>
+    </ul>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills">
+    <h2>My Skills</h2>
+    <ul class="skills-list">
+      <li>Web Design</li>
+      <li>HTML & CSS</li>
+      <li>C++ Programming </li>
+      <li>Graphic Design (Canva & Photoshop)</li>
+    </ul>
+  </section>
+
+  <!-- Hobbies -->
+  <section id="hobbies">
+    <h2>My Hobbies</h2>
+    <ul class="hobbies-list">
+      <li>Dancing 💃</li>
+      <li>Listening to Music 🎧</li>
+      <li>Traveling & Exploring Nature 🌿</li>
+      <li>Coding & Learning Technology 💻</li>
+    </ul>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <div class="contact-info">
+      <p>Email: <a href="mailto:ovenzaangel@email.com">ovenzaangel@gmail.com</a></p>
+      <p>Facebook: <a href="#">facebook.com/angelovenza</a></p>
+      <p>Instagram: <a href="#">@watsup_eyngel</a></p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Angel Ovenza | All Rights Reserved</p>
+  </footer>
+
+</body>
+</html>
